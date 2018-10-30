@@ -1,0 +1,17 @@
+There were many frustrations that i experienced during this project
+problems i faced:
+implementing a hash table
+-the linked list has a posobbility of indexing to null
+- should be an array instead of a vector because of fixed size
+-prime number increaces efficiency
+
+using the command.o and comman.h
+i was not able to fix it and ended up creating my own parsing implementation of a file of commands 
+the problem looked similar to the following:
+
+undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()' command.cpp:(.text+0x126e): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+
+many seg faulting refering to either null and then trying to use a member function of a stations class
+and also referencing a part of a vector that does not exist.
+
+another interesting problem was the union function that i used to implement disjoint sets and unify them.
